@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "51d1306c-47d4-4fca-a3de-1507ff015c18",
+		"name": "Digio Market",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13110807"
+	},
+	"item": [
+		{
+			"name": "Compras Ordenadas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/compras",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"compras"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Maior Compra Por ano",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/maior_compra/2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"maior_compra",
+						"2020"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clientes Fieis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/clientes-fieis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"clientes-fieis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recomendação Tipo de Vinho",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/recomendacao/04372012950/tipo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"recomendacao",
+						"04372012950",
+						"tipo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,4 @@
+data:
+    jsons:
+        products-path: ${PRODUCTS_JSON_PATH:/data/products.json}
+        customers-path: ${CUSTOMERS_JSON_PATH:/data/customers.json}
